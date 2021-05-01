@@ -1,5 +1,3 @@
-console.log(reverInteger(901000));
-
 function reverse(n) {
   let numberReverse = 0;
   const sign = n < 0;
