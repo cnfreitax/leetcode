@@ -12,9 +12,10 @@ var runningSum = function (nums) {
 
     results.push(result)
   }
+  return results
 };
 
 
-runningSum([1, 2, 3, 4])
-runningSum([1, 1, 1, 1, 1])
-runningSum([3, 1, 2, 10, 1])
+runningSum([1, 2, 3, 4]) // [ 1, 3, 6, 10 ]
+runningSum([1, 1, 1, 1, 1]) // [ 1, 2, 3, 4, 5 ]
+runningSum([3, 1, 2, 10, 1]) // [ 3, 4, 6, 16, 17 ]
