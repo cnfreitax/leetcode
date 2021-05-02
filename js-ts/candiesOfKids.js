@@ -1,5 +1,4 @@
 var kidsWithCandies = function (candies, extraCandies) {
-  console.time('Opa')
   const maxNumber = Math.max(...candies)
 
   const result = candies.map(candieOfKid => {
@@ -11,7 +10,6 @@ var kidsWithCandies = function (candies, extraCandies) {
     }
   })
 
-  console.timeEnd('Opa')
   return result
 
 
