@@ -1,7 +1,7 @@
 var isSumEqual = function (firstWord, secondWord, targetWord) {
 
-  const alpha = Array.from(Array(10)).map((e, i) => i + 65);
-  const alphabet = alpha.map((x) => String.fromCharCode(x).toLowerCase());
+  const quantityFromAlpahbet = Array.from(Array(10)).map((e, i) => i + 65);
+  const alphabet = quantityFromAlpahbet.map((position) => String.fromCharCode(position).toLowerCase());
   
   const getValueWord = (word) => {
     const total = Array.from(word).map(letter => {
