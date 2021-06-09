@@ -10,11 +10,13 @@ var isSumEqual = function (firstWord, secondWord, targetWord) {
     return Number(total.join(''));
   }
 
-  let firstWordValue = getValueWord(firstWord);
-  let secondWordValue = getValueWord(secondWord);
-  let targetWordValue = getValueWord(targetWord);
+  console.log(Array.from(arguments))
 
-  return ((firstWordValue + secondWordValue) === targetWordValue);
+  // let firstWordValue = getValueWord(firstWord);
+  // let secondWordValue = getValueWord(secondWord);
+  // let targetWordValue = getValueWord(targetWord);
+
+  // return ((firstWordValue + secondWordValue) === targetWordValue);
 };
 
 isSumEqual('abc', 'cba', 'aaa')
